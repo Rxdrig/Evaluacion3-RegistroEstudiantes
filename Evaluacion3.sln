@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluacion3.AppMovil", "Evaluacion3.AppMovil\Evaluacion3.AppMovil.csproj", "{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluacion3.Modelos", "Evaluacion3.Modelos\Evaluacion3.Modelos.csproj", "{840A6CA1-74F3-451F-8B9E-569BAB8FCFA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5CAEC9-D6E6-42DC-AF6E-B83574D0700E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{840A6CA1-74F3-451F-8B9E-569BAB8FCFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840A6CA1-74F3-451F-8B9E-569BAB8FCFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840A6CA1-74F3-451F-8B9E-569BAB8FCFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840A6CA1-74F3-451F-8B9E-569BAB8FCFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
