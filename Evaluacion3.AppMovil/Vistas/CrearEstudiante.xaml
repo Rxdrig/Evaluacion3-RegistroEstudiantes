@@ -18,7 +18,7 @@
                x:Name="segundoApellidoEntry"/>
         <Entry Placeholder="Correo Electronico"
                x:Name="correoEntry"/>
-        <Entry Placeholder="edad"
+        <Entry Placeholder="Edad"
                x:Name="edadEntry"
                Keyboard="Numeric"/>
         <Button Text="Guardar Estudiante"

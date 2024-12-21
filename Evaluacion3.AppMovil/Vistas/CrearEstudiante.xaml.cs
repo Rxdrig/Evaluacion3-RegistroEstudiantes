@@ -2,6 +2,7 @@ using Evaluacion3.Modelos.Modelos;
 using Firebase.Database;
 using Firebase.Database.Query;
 
+
 namespace Evaluacion3.AppMovil.Vistas;
 
 public partial class CrearEstudiante : ContentPage
@@ -11,10 +12,11 @@ public partial class CrearEstudiante : ContentPage
     public List<Curso> Curso { set; get; }
 
     public CrearEstudiante()
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
         ListarCursos();
         BindingContext = this;
+
     }
     private void ListarCursos()
     {
@@ -24,8 +26,10 @@ public partial class CrearEstudiante : ContentPage
 
     private async void guardarButton_Clicked(object sender, EventArgs e)
     {
+        
         Curso curso = cursoPicker.SelectedItem as Curso;
         var estudiante = new Estudiante
+
         {
             PrimerNombre = primerNombreEntry.Text,
             SegundoNombre = segundoNombreEntry.Text,
@@ -39,8 +43,9 @@ public partial class CrearEstudiante : ContentPage
         try
         {
             await client.Child("Estudiantes").PostAsync(estudiante);
-            await DisplayAlert("Exito", $"El Estudiante {estudiante.PrimerNombre} {estudiante.PrimerApellido} fue guardado correctamente", "OK");
+            await DisplayAlert("Exito", $"El Estudiante {estudiante.PrimerNombre} {estudiante.PrimerApellido} fue guardado correctamente", "OK");        
             await Navigation.PopAsync();
+
         }
         catch (Exception ex)
         {
